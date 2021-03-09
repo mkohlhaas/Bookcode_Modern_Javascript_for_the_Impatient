@@ -45,8 +45,12 @@ if (yourSales > target)
 else
   bonus = 0
 
+console.log('bonus:', bonus) // 100
+
 console.log('// Remedy: Use braces or place everything in one line')
 if (yourSales > target) bonus = 100; else bonus = 0
+
+console.log('bonus:', bonus) // 100
 
 console.log('// This computation can be simplified...')
 const x = 17

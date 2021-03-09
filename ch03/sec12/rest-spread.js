@@ -24,7 +24,7 @@ result = Math.max(...numbers) // Yields 9
 console.log('result:', result) 
 
 console.log('// Note the difference between rest ... and spread ...')
-Math.max(...numbers) // Spread operator—argument in function call
+Math.max(...numbers) // Spread operator - argument in function call
 const max = (...values) => { /* body */} 
   // Rest declaration of parameter variable
 

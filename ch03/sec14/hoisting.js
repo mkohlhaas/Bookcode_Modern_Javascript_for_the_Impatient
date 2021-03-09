@@ -10,16 +10,18 @@ console.log('// You cannot access a local variable before it is defined')
     
     try {
       console.log(someVariable)
-    } catch(e) { console.log(`Error: ${e}`) }
-   // Attempting to access someVariable throws a ReferenceError
+    } catch(e) {
+      console.log(`Error: ${e}`)
+    }
+    // Attempting to access someVariable throws a ReferenceError
     let someVariable // Scope starts here
     
     console.log('someVariable:', someVariable) // undefined
-   // Can access someVariable, value is undefined
+    // Can access someVariable, value is undefined
     someVariable = 42
     
   console.log('someVariable:', someVariable) // 42
-   // Can access someVariable, value is 42
+    // Can access someVariable, value is 42
   } // End of block, scope ends here
 
   doStuff()
@@ -83,7 +85,7 @@ console.log('// Nowadays, just use let')
 {
   {
     let someVariable = 42
-    const someFunction = (arg) => { return arg * arg }
+    const someFunction = arg => { return arg * arg }
     console.log(someFunction(someVariable))
   }
 

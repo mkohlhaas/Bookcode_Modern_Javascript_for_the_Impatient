@@ -5,7 +5,7 @@
 console.log('// Calling with more arguments')
 {
   const average = (x, y) => (x + y) / 2
-  let result = average(3, 4, 5) // 3.5—the last argument is ignored
+  let result = average(3, 4, 5) // 3.5 - the last argument is ignored
   console.log('result:', result) 
 }
 

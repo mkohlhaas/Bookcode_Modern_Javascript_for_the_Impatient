@@ -36,4 +36,5 @@ function stats(x, y) {
 }
 
 result = stats(6, 7)
-console.log('result:', result) // { average: 6.5, max: 7, distance: 1 }
+// console.log('result:', result) // { average: 6.5, max: 7, distance: 1 }
+console.log({result})

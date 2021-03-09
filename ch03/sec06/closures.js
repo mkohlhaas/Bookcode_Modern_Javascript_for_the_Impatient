@@ -3,7 +3,7 @@
 'use strict'
 
 console.log('// Says Goodbye in ten seconds')
-setTimeout(() => console.log('Goodbye'), 10000)
+setTimeout(() => console.log('Goodbye1'), 1000)
 
 console.log('// Provide parameters for text and timer')
 const sayLater = (text, when) => {
@@ -12,10 +12,10 @@ const sayLater = (text, when) => {
 }
 
 console.log('// Two sample invocations')
-sayLater('Hello', 1000)
-sayLater('Goodbye', 10000)
+sayLater('Hello2', 2000)
+sayLater('Goodbye3', 3000)
 
 console.log('// The value of the captured variable can be changed after the call')
-let text = 'Goodbye'
-setTimeout(() => console.log(text), 10000)
-text = 'Hello'
+let text = 'Goodbye4'
+setTimeout(() => console.log(text), 4000)
+text = 'Hello5'

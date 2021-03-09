@@ -14,3 +14,6 @@ console.log('counter:', counter) // 0
 
 console.log('// Unicode letters in variable names are ok')
 const π = 3.141592653589793
+console.log(π)
+const ö = 3
+console.log(ö)

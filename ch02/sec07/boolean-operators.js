@@ -47,11 +47,13 @@ result = JSON.parse(arg) ?? defaultValue
 console.log('result:', result) 
 
 console.log('// The ?. operator')
+// Nullish coalescing operator (??) 
 let person = undefined
 let recipient = person?.name
 console.log('recipient:', recipient) // undefined
 
 console.log('// Chaining ?. operators')
+// Optional chaining operator (?.) - does not cause an error, just returns 'undefined'
 person = { firstName: 'Fred' }
 let recipientLength = person?.name?.length
 console.log('recipientLength:', recipientLength) // undefined

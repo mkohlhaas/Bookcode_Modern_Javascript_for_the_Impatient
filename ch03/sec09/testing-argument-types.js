@@ -20,8 +20,8 @@ const average = (x, y) => {
 }
 
 console.log('average(1, 2):', average(1, 2)) // 1.5
-console.log('average([1, 2, 3], 4):', average([1, 2, 3], 4)) // 2.5
-console.log('average(1, [2, 3, 4]):', average(1, [2, 3, 4])) // 2.5
+console.log('average([1, 2, 3], 4):', average([1, 2, 3, 4], 5)) // 3
+console.log('average(1, [2, 3, 4]):', average(1, [2, 3, 4, 5])) // 3
 console.log('average([1, 2], [3, 4, 5]):', average([1, 2], [3, 4, 5])) // 3
 
 console.log('// Some programmers like to use automatic conversions')

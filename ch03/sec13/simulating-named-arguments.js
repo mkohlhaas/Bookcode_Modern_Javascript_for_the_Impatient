@@ -28,6 +28,8 @@ console.log('// Remedy: Use destructuring syntax for the parameter')
 
   const result = mkString(values, { leftDelimiter: '(', rightDelimiter: ')' })
   console.log('result:', result) // (1,7,2,9)
+  // TypeError: Cannot read property of 'separator' in undefined 
+  // console.log(mkString(values))
 }
 
 console.log('// It is a good idea to provide an empty default')

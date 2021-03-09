@@ -14,7 +14,7 @@ switch (someExpression) {
     description = 'boolean'
     break
   case '':
-    description = 'empty string' // See the “Caution” note below
+    description = 'empty string' // There is no 'break' -> ERROR - fall through!!!
   default:
     description = 'something else'
 }

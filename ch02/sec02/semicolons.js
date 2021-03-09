@@ -52,8 +52,8 @@ console.log('myFunction(1):', myFunction(1)) // undefined
 console.log('// Remedy: Put at least one other token in the same line')
 const myFunction2 = (x) => {
   const someComplicatedExpression = 42
-  return
-    x + someComplicatedExpression;
+  return x
+    + someComplicatedExpression;
 }
 console.log('myFunction2(1):', myFunction2(1)) // undefined
 

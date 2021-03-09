@@ -2,7 +2,6 @@
 
 'use strict'
 
-
 // The blocks { . . . } isolate the variable declarations
 
 console.log('// Without destructuring:')
